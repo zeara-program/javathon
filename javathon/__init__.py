@@ -1,2 +1,2 @@
 from .console import *
-from .requests import *
+from .net import *
