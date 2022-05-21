@@ -10,10 +10,11 @@ from javathon import net
 
 # console
 #########################
-console.log("メッセージ")#
+console.log("メッセージ")
 #########################
 
 # net
+################################################################################
 net.get("https://pzearadiscord.000webhostapp.com")# headersを指定しても使えます
 data = {
   "name": "zearadisscord",
@@ -21,5 +22,5 @@ data = {
 }
 net.post("URL",data=data)
 net.delete("URL")# header...(以下略)
-
+################################################################################
 ```
