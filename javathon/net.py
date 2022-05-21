@@ -3,7 +3,7 @@ import requests
 def get(url,headers=None):
   if not headers:
     requests.get(url)
-  return requests.get(url,headers=header)
+  return requests.get(url,headers=headers)
 
 def post(url,headers=None,data=None):
   if not headers:
