@@ -5,7 +5,7 @@ def get(url,headers=None):
     requests.get(url)
   return requests.get(url,headers=header)
 
-def post(url, headers=None,data):
+def post(url,headers=None,data=None):
   if not headers:
     return requests.post(url,data=data)
   if not data:
