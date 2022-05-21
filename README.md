@@ -6,5 +6,4 @@ import javathon
 from javathon import console
 
 console.log("メッセージ")
-
 ```
