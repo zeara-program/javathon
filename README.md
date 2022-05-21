@@ -1,10 +1,10 @@
 # package-template
-```pip install git+https://github.com/zeara-program/package-template/```
+```pip install git+https://github.com/zeara-program/javathon/```
 # code
 ```
-import template
-from template import main
+import javathon
+from javathon import console
 
-main.print("メッセージ")
+console.log("メッセージ")
 
 ```
