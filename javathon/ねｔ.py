@@ -12,7 +12,5 @@ def post(url, headers=None,data):
     print("dataが入力されていません")
   return requests.post(url,headers=headers,data=data)
 
-def delete(url,headers=None):
-  if not headers:
-    return requests.delete(url)
-  return requests.delete(url,headers=headers)
+def delete(url):
+  return requests.delete(ur)
