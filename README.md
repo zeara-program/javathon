@@ -6,6 +6,15 @@ javathon(ジャヴァソン)はjavascriptをpythonで実行するというパッ
 ```
 import javathon
 from javathon import console
+from javathon import requests
 
-console.log("メッセージ")
+# console
+#########################
+console.log("メッセージ")#
+#########################
+
+# requests
+
+
+
 ```
